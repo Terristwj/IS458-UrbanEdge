@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "urbanedge",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authurbanedge3dc72717",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

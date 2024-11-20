@@ -1,0 +1,61 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-urbanedge-dev-1b7d6-authRole",
+      "UnauthRoleArn": "arn:aws:iam::007303885432:role/amplify-urbanedge-dev-1b7d6-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::007303885432:role/amplify-urbanedge-dev-1b7d6-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-urbanedge-dev-1b7d6-deployment",
+      "UnauthRoleName": "amplify-urbanedge-dev-1b7d6-unauthRole",
+      "StackName": "amplify-urbanedge-dev-1b7d6",
+      "StackId": "arn:aws:cloudformation:us-east-1:007303885432:stack/amplify-urbanedge-dev-1b7d6/163a9e60-9e99-11ef-85e6-0affc83b3d83",
+      "AmplifyAppId": "d3gw21kgx1xwgj"
+    },
+    "categories": {
+      "auth": {
+        "urbanedge3dc72717": {}
+      },
+      "function": {
+        "processPayment": {
+          "deploymentBucketName": "amplify-urbanedge-dev-1b7d6-deployment",
+          "s3Key": "amplify-builds/processPayment-627a4146492f796c5374-build.zip"
+        },
+        "createOrder": {
+          "deploymentBucketName": "amplify-urbanedge-dev-1b7d6-deployment",
+          "s3Key": "amplify-builds/createOrder-76396d71717746657070-build.zip"
+        }
+      },
+      "api": {
+        "urbanedge": {}
+      },
+      "storage": {
+        "StoreImages": {}
+      },
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
+    }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-urbanedge-prod-a80a6-authRole",
+      "UnauthRoleArn": "arn:aws:iam::007303885432:role/amplify-urbanedge-prod-a80a6-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::007303885432:role/amplify-urbanedge-prod-a80a6-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-urbanedge-prod-a80a6-deployment",
+      "UnauthRoleName": "amplify-urbanedge-prod-a80a6-unauthRole",
+      "StackName": "amplify-urbanedge-prod-a80a6",
+      "StackId": "arn:aws:cloudformation:us-east-1:007303885432:stack/amplify-urbanedge-prod-a80a6/cb3a2580-9ea6-11ef-8b5c-12a1b6e58a55",
+      "AmplifyAppId": "d3gw21kgx1xwgj"
+    },
+    "categories": {
+      "auth": {
+        "urbanedge3dc72717": {}
+      },
+      "function": {
+        "createOrder": {},
+        "processPayment": {}
+      }
+    }
+  }
+}

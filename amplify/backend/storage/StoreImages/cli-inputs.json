@@ -1,0 +1,16 @@
+{
+  "resourceName": "StoreImages",
+  "policyUUID": "803857d3",
+  "bucketName": "urbanedgec73f15552f6a40948cd332e9e47536f1",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
